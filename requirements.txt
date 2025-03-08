@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-mistralai
+python-dotenv
+faiss-cpu
+langchain[mistralai]
+streamlit

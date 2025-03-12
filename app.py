@@ -1,8 +1,8 @@
 import streamlit as st
-from qna import get_qa_chain, create_vector_db
+from qna import get_qa_chain
 
 # title of the Streamlit app
-st.title("Basics Q&A Demo")
+st.title("Basics Document Q&A")
 
 # input field for user to enter a question
 question = st.text_input("Question: ")
